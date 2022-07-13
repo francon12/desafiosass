@@ -1,0 +1,22 @@
+//nesting - anidacion
+.nave {
+  background-color: $mainColor;
+  top: 0;
+  left: 0;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+   a {
+    font-size: $textSm;
+    text-decoration: none;
+    color: $secondaryColor; 
+  }
+}
+#botonera{
+  font-size:$textMd; 
+  font-family: $mainFont;
+  position: sticky; 
+    img {
+     width: 5vw; 
+  }
+}

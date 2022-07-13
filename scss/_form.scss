@@ -1,0 +1,40 @@
+.headerConteiner{
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fondo{
+	width: 100vw;
+}
+.textBombonera{
+	color: $keyColor;
+	font-size: $textLg;
+	position: absolute;
+	margin-bottom: 130px;
+	@media (max-width: 530px){ 
+		font-size:$textMs ;
+		@media (max-width: 383px){
+			font-size: $textMs;
+		}
+	}
+}
+.audioBoca{
+	position: absolute;
+	margin-bottom: 10px;
+	
+}
+.formulario{
+	text-align: center;
+	background-color: $white;
+	width: 60vw;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	@media (max-width: 530px){ 
+		width: 100vw; 
+	}
+
+}
+.marg{
+	background-color: $black;
+}
